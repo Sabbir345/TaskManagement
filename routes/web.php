@@ -11,6 +11,29 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+    // For User Routes
+	
+    Auth::routes();
+    // Route::get('/' , 'User\UserController@index')->name('user.login');
+    // Route::post('/' , 'User\UserController@Login')->name('user.login.confirm');
+
+    Route::group([
+        'middleware' => 'auth'
+    ], function () {
+
+        include_once 'User/dashboard.php';        
+    });
+
+    // For Admin
+
+    Route::get('/admin', 'Admin\AdminLoginController@login')->name('admin.auth.login');
+    Route::post('/admin', 'Admin\AdminLoginController@loginAdmin')->name('admin.login.submit');
+
+    Route::group([
+        'prefix' => 'admin', 
+        'middleware' => 'auth:admin'
+    ], function() {
+
+      include_once 'Admin/dashboard.php';
+
+    });
