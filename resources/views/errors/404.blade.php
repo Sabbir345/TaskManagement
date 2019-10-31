@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>E-Trade License | Admin Login</title>
+        <title>Task Application</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
@@ -81,7 +81,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-md">                  
-                        <small class="d-block mb-3 text-center">E-Trade 2019 &copy; copyright</small>
+                        <small class="d-block mb-3 text-center">Online Task Application 2019 &copy; copyright</small>
                     </div>                
                 </div>
             </div>

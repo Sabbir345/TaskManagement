@@ -12,4 +12,6 @@ let mix = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
+	.js('resources/assets/js/admin/admindashboard.js', 'public/js').version()
+	.js('resources/assets/js/user/dashboard.js', 'public/js').version()
    .sass('resources/assets/sass/app.scss', 'public/css');

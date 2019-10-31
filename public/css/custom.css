@@ -1,0 +1,253 @@
+
+
+
+@font-face {
+    font-family: 'solaimanlipinormal';
+    src: url('../../assets/fonts/SolaimanLipi.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    font-size: 18px;
+}
+body{font-family: Siyam Rupali, SolaimanLipi, 'Kalpurush',  SutonnyOMJ, Lohit, English Fonts; }
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+a{color: #444;}
+a:hover{ text-decoration: none;}
+.container {
+    max-width: 1200px;
+}
+.pricing-header {
+    max-width: 700px;
+}
+.card-deck .card {
+    min-width: 220px;
+}
+.bg-dark{background: #fff !important;}
+.navbar-expand-md .navbar-nav .nav-link , .navbar-brand{color: #444 !important;font-size: 13px;}
+.navbar-dark .navbar-toggler, .navbar-toggler{border-color: #444 !important;background: #444;}
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+.navbar-nav .nav-link{font-size: 14px;}
+.navbar-nav li a:hover{border-bottom: 1px solid #bd2130;}
+.navbar-nav li a.active{border-bottom: 1px solid #bd2130;}
+.dropdown-item:hover, .dropdown-item:focus {border-bottom: 0px !important;}
+.table thead th{text-align: center;}
+.table-responsive{margin: 0 auto;overflow-x: auto;width: 98%;display: table;}
+.custom-control{top: 8px;display: block;min-height: 1.5rem;padding-left: 23px;position: relative;left: 17px;}
+
+/*====================Login Form Code====================*/
+
+.my-login-page {
+    background-color: #f7f9fb;
+    font-size: 14px;
+}
+.brand {
+
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.my-login-page .brand img {
+    width: 100%;
+}
+.my-login-page .card-wrapperlogin {
+    margin: 0 auto;
+    width: 400px;
+}
+.my-login-page .card-wrappersign {
+    margin: 0 auto;
+    width: 800px;
+}
+.my-login-page .card {
+    border-color: transparent;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+}
+.my-login-page .card.fat {
+    padding: 10px;
+}
+.my-login-page .card .card-title {
+    margin-bottom: 30px;
+}
+.my-login-page .form-control {
+    border-width: 2.3px;
+}
+.my-login-page .form-group label {
+    width: 100%;
+}
+.my-login-page .btn.btn-block {
+    padding: 12px 10px;
+}
+.my-login-page .margin-top20 {
+    margin-top: 20px;
+}
+.my-login-page .no-margin {
+    margin: 0;
+}
+.my-login-page .footer {
+    color: #888;
+    margin: 40px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+    .my-login-page .card-wrapper {
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .my-login-page .card.fat {
+        padding: 0;
+    }
+    .my-login-page .card.fat .card-body {
+        padding: 15px;
+    }
+}
+
+/*====================Login Form Code====================*/
+
+
+/*===========================for input reset code=========================*/
+
+.dropdown-pull-right {
+    float: right !important;
+    right: 0;
+    left: auto;
+}
+.dropdown-pull-right>.dropdown-menu {
+    right: 0;
+    left: auto;
+}
+.button {
+    color: white;
+    background-color: #007bff;
+    border-color: #007bff;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+.padding-td{
+    padding-top: 2%;
+}
+.level-button{
+
+    color:white; 
+    padding:10px; 
+    font-size: 16px;
+    font-weight: 400; 
+    border-radius: 5px 5px 5px 5px;
+}
+.level-button-equal{
+
+    color:white; 
+    padding:12px; 
+    font-size: 16px;
+    font-weight: 400; 
+    border-radius: 5px 5px 5px 5px;
+}
+.first-chart-level{
+    background-color: #6c757d;
+}
+.second-chart-level{
+    background-color: #007bff;
+}
+.third-chart-level{
+   background-color: #28a745; 
+}
+.fourth-chart-level{
+    background-color: #dc3545; 
+}
+.search-box-size{
+    width: 66% !important;
+}
+.link-color{
+    color:blue;
+}
+.user-padding{
+    padding:0;
+}
+.image-size{
+    height:auto;width:200px;
+}
+.user-image-size{
+    height:auto;width:100px;
+}
+.profile-image-size{
+    height:auto;width:140px;
+}
+.business-type-button{
+    margin-left:15px;
+}
+.h2-padding{
+    margin-left:15px;
+}
+input[type="password"]
+{
+  width:100%;
+  padding-right:0;
+}
+/*.icon-size{
+    padding-top:15%;
+    font-size: 20px;
+}
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.input-group-addon, .input-group-btn {
+    width: 12%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.input-group-addon:first-child {
+    border-right: 0;
+}
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}*/
+.admin-login-padding{
+    padding-top:30px;
+    background-color: blue;
+}
+.padding-reset-password{
+    padding:20px;
+}
+.field_required{
+    color: red;
+}
+.badge{
+    background-color: #337ab7;
+    color: white;
+    border-radius: 10px;
+    padding: 3px 7px;
+}
